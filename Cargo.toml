@@ -1,0 +1,3 @@
+[workspace]
+members = ["p1_usb-serial", "p2_rtc-module"]
+resolver = "2"
