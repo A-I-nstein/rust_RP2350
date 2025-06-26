@@ -1,4 +1,4 @@
-# rust_pico-2w
+# Rust RP2350 - Raspberry Pi Pico 2W
 Embedded Rust programs for the RP2350 MCU (Raspberry Pi Pico 2 W). Demonstrating practical applications and learning resources.  
 
 ## How to run the programs?
