@@ -145,6 +145,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "dht-sensor"
+version = "0.2.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "74d643854f324f02daea7153ebbfec5cfcc2f395faf1c7011be65e543570de28"
+dependencies = [
+ "embedded-hal 0.2.7",
+]
+
+[[package]]
 name = "display-interface"
 version = "0.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -453,6 +462,18 @@ dependencies = [
  "rp235x-hal",
  "ssd1306",
  "tinybmp",
+]
+
+[[package]]
+name = "p4_tmp_hum"
+version = "0.1.0"
+dependencies = [
+ "dht-sensor",
+ "embedded-hal 1.0.0",
+ "panic-halt",
+ "rp235x-hal",
+ "usb-device",
+ "usbd-serial",
 ]
 
 [[package]]
