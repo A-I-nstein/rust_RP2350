@@ -54,6 +54,16 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "1b8e56985ec62d17e9c1001dc89c88ecd7dc08e47eba5ec7c29c7b5eeecde967"
 
 [[package]]
+name = "bme280"
+version = "0.5.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "169ac81b9123f316fde5b0e00175294dcdcdd800c1a6c92a4b58caf42a14cf1f"
+dependencies = [
+ "embedded-hal 1.0.0",
+ "maybe-async-cfg",
+]
+
+[[package]]
 name = "byte-slice-cast"
 version = "1.2.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -469,6 +479,18 @@ name = "p4_tmp_hum"
 version = "0.1.0"
 dependencies = [
  "dht-sensor",
+ "embedded-hal 1.0.0",
+ "panic-halt",
+ "rp235x-hal",
+ "usb-device",
+ "usbd-serial",
+]
+
+[[package]]
+name = "p5_pressure"
+version = "0.1.0"
+dependencies = [
+ "bme280",
  "embedded-hal 1.0.0",
  "panic-halt",
  "rp235x-hal",
