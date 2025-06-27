@@ -1,0 +1,15 @@
+[package]
+name = "p3_oled-screen"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+embedded-graphics = "0.8.1"
+embedded-hal = "1.0.0"
+panic-halt = "1.0.0"
+rp235x-hal = { version = "0.3.0", features = [
+    "critical-section-impl",
+    "defmt",
+] }
+ssd1306 = "0.10.0"
+tinybmp = "0.6.0"

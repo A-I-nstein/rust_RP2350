@@ -115,13 +115,13 @@ fn main() -> ! {
     );
 
     let start_dt = DateTime {
-        sec: 0,
-        min: 0,
-        hrs: 0,
-        day: DAY::Fri as u8,
-        dat: 24,
+        sec: 45,
+        min: 30,
+        hrs: 8,
+        day: DAY::Mon as u8,
+        dat: 20,
         mon: 6,
-        yea: 25,
+        yea: 22,
     };
 
     let sec: [u8; 1] = BcdNumber::new(start_dt.sec).unwrap().bcd_bytes();
