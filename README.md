@@ -28,5 +28,5 @@ Embedded Rust programs for the RP2350 MCU (Raspberry Pi Pico 2 W). Demonstrating
 - [x] ZS-042 RTC Module (a.k.a DS3231)
 - [x] SSD1306 0.96 I2C OLED Display
 - [x] DHT11 Temperature and Humidity Sensor
-- [ ] BMP 280 Pressure Sensor
+- [x] BME 280 Pressure Sensor
 - [ ] BH1750 Ambient Light Sensor
