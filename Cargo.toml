@@ -4,6 +4,6 @@ members = [
     "p2_rtc-module",
     "p3_oled-screen",
     "p4_tmp_hum",
-    "p5_pressure",
+    "p5_pressure", "p6_amb_light",
 ]
 resolver = "2"

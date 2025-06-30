@@ -30,6 +30,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "bh1750-ehal"
+version = "0.0.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a5666870d877c349de7159f2ff6e61591b81765c8addcff303fb322c84c8bd29"
+dependencies = [
+ "embedded-hal 0.2.7",
+]
+
+[[package]]
 name = "bitfield"
 version = "0.13.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -491,6 +500,18 @@ name = "p5_pressure"
 version = "0.1.0"
 dependencies = [
  "bme280",
+ "embedded-hal 1.0.0",
+ "panic-halt",
+ "rp235x-hal",
+ "usb-device",
+ "usbd-serial",
+]
+
+[[package]]
+name = "p6_amb_light"
+version = "0.1.0"
+dependencies = [
+ "bh1750-ehal",
  "embedded-hal 1.0.0",
  "panic-halt",
  "rp235x-hal",

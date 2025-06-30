@@ -29,4 +29,4 @@ Embedded Rust programs for the RP2350 MCU (Raspberry Pi Pico 2 W). Demonstrating
 - [x] SSD1306 0.96 I2C OLED Display
 - [x] DHT11 Temperature and Humidity Sensor
 - [x] BME 280 Pressure Sensor
-- [ ] BH1750 Ambient Light Sensor
+- [x] BH1750 Ambient Light Sensor
